@@ -4,9 +4,9 @@ import os
 
 from groq import Groq
 # get key from .env file
-from dotenv import load_dotenv
-load_dotenv()
-os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
+# from dotenv import load_dotenv
+# load_dotenv()
+# os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
 
 client = Groq()
 
